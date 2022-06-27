@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito, sans-serif;
+  height: 100vh;
+  background-color: #26292f;
+}
+
+main {
+  /* margin: 10% 20%; */
+  /* align-items: center; */
+  /* align-content: center; */
+  margin: 2% auto;
+  width: fit-content;
+  background-color: #131518;
+  border-radius: 10px;
+}
+.info {
+  text-align: center;
+}
+.profile-picture {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 350px;
+}
+
+.user-name {
+  color: #fff;
+  letter-spacing: 3px;
+}
