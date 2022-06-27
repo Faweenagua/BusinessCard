@@ -30,4 +30,17 @@ main {
 .user-name {
   color: #fff;
   letter-spacing: 3px;
+  margin-top: 25px;
+  margin-bottom: 7px;
+}
+.user-role {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7caaa;
+}
+
+.user-email {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  color: #fefefe;
 }
