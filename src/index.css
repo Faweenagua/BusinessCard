@@ -36,11 +36,52 @@ main {
 .user-role {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 200;
   color: #e7caaa;
 }
 
 .user-email {
   margin-top: 12px;
   margin-bottom: 0px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 200;
   color: #fefefe;
+}
+
+.buttons {
+  margin-top: 23px;
+}
+
+.button-linkedin,
+.button-email {
+  border: none;
+  border-radius: 6px;
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-email {
+  margin-right: 15px;
+  background-color: #ffffff;
+  color: #131518;
+}
+
+.button-linkedin {
+  margin-left: 15px;
+  background-color: #0072b1;
+  color: #ffffff;
+}
+
+.button-email_icon,
+.button-linkedin_icon {
+  margin-right: 5px;
+}
+
+.button-email_email,
+.button-linkedin_linkedin {
+  margin-left: 5px;
 }
