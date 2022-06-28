@@ -14,17 +14,23 @@ main {
   /* align-items: center; */
   /* align-content: center; */
   margin: 2% auto;
-  width: fit-content;
+  width: 350px;
   background-color: #131518;
   border-radius: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .info {
   text-align: center;
 }
 .profile-picture {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  width: 350px;
+  width: 100%;
 }
 
 .user-name {
@@ -50,15 +56,18 @@ main {
   color: #fefefe;
 }
 
-.buttons {
+.buttons,
+.about {
   margin-top: 23px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .button-linkedin,
 .button-email {
   border: none;
   border-radius: 6px;
-  width: 120px;
+  width: 130px;
   height: 30px;
   font-size: 16px;
   cursor: pointer;
@@ -84,4 +93,24 @@ main {
 .button-email_email,
 .button-linkedin_linkedin {
   margin-left: 5px;
+}
+
+.about,
+.interest {
+  margin: 30px 30px;
+}
+
+.about-title,
+.interest-title {
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.about-text,
+.interest-text {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #f1f1f1;
 }
