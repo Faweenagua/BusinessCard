@@ -5,8 +5,9 @@
 body {
   margin: 0;
   font-family: Nunito, sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #26292f;
+  /* padding-bottom: 20px; */
 }
 
 main {
@@ -14,6 +15,7 @@ main {
   /* align-items: center; */
   /* align-content: center; */
   margin: 2% auto;
+  /* margin-bottom: 200px; */
   width: 350px;
   background-color: #131518;
   border-radius: 10px;
@@ -112,5 +114,20 @@ a {
   margin-top: 5px;
   font-size: 12px;
   line-height: 20px;
-  color: #f1f1f1;
+  color: #d3d3d3;
+}
+
+.footer-section {
+  background-color: #000000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #d3d3d3;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.button-icon {
+  margin: 0px 10px;
 }
